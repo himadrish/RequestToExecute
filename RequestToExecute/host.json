@@ -1,0 +1,17 @@
+{
+  "aggregator": {
+    "batchSize": 200,
+    "flushTimeout": "00:00:20"
+  },
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "maxTelemetryItemsPerSecond": 20,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true
+    }
+  }
+}
